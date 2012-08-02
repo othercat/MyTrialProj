@@ -4,7 +4,8 @@ These are the trial projects.
 
 ## ChangeLog
 
-New working directory here
+2012-08-02
+Add tryNASM project
 
 ## Requirement
 
