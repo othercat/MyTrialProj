@@ -4,11 +4,11 @@ These are the trial projects.
 
 ## ChangeLog
 
+2012-09-19
+Add MultiWinSample project
+
 2012-08-02
 Add tryNASM project
-
-2012-0919
-Add MultiWinSample project
 
 ## Requirement
 
