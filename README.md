@@ -7,6 +7,9 @@ These are the trial projects.
 2012-08-02
 Add tryNASM project
 
+2012-0919
+Add MultiWinSample project
+
 ## Requirement
 
 Mac OS X 10.7 and above version (10.8 tested)

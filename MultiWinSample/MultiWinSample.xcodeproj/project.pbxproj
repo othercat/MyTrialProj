@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF0ACD2716097D8200D70FCD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0ACD2616097D8200D70FCD /* Cocoa.framework */; };
+		EF0ACD3116097D8200D70FCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF0ACD2F16097D8200D70FCD /* InfoPlist.strings */; };
+		EF0ACD3316097D8200D70FCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0ACD3216097D8200D70FCD /* main.m */; };
+		EF0ACD3716097D8200D70FCD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EF0ACD3516097D8200D70FCD /* Credits.rtf */; };
+		EF0ACD3A16097D8200D70FCD /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0ACD3916097D8200D70FCD /* Document.m */; };
+		EF0ACD4016097D8300D70FCD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF0ACD3E16097D8300D70FCD /* MainMenu.xib */; };
+		EF0ACD4D16097E4C00D70FCD /* FirstWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0ACD4B16097E4C00D70FCD /* FirstWindowController.m */; };
+		EF0ACD4E16097E4C00D70FCD /* FirstWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF0ACD4C16097E4C00D70FCD /* FirstWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF0ACD2216097D8200D70FCD /* MultiWinSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiWinSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0ACD2616097D8200D70FCD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EF0ACD2916097D8200D70FCD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EF0ACD2A16097D8200D70FCD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EF0ACD2B16097D8200D70FCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF0ACD2E16097D8200D70FCD /* MultiWinSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiWinSample-Info.plist"; sourceTree = "<group>"; };
+		EF0ACD3016097D8200D70FCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF0ACD3216097D8200D70FCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF0ACD3416097D8200D70FCD /* MultiWinSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiWinSample-Prefix.pch"; sourceTree = "<group>"; };
+		EF0ACD3616097D8200D70FCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		EF0ACD3816097D8200D70FCD /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		EF0ACD3916097D8200D70FCD /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		EF0ACD3F16097D8300D70FCD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EF0ACD4A16097E4C00D70FCD /* FirstWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstWindowController.h; sourceTree = "<group>"; };
+		EF0ACD4B16097E4C00D70FCD /* FirstWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstWindowController.m; sourceTree = "<group>"; };
+		EF0ACD4C16097E4C00D70FCD /* FirstWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF0ACD1F16097D8200D70FCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0ACD2716097D8200D70FCD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF0ACD1716097D8200D70FCD = {
+			isa = PBXGroup;
+			children = (
+				EF0ACD2C16097D8200D70FCD /* MultiWinSample */,
+				EF0ACD2516097D8200D70FCD /* Frameworks */,
+				EF0ACD2316097D8200D70FCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF0ACD2316097D8200D70FCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF0ACD2216097D8200D70FCD /* MultiWinSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF0ACD2516097D8200D70FCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF0ACD2616097D8200D70FCD /* Cocoa.framework */,
+				EF0ACD2816097D8200D70FCD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF0ACD2816097D8200D70FCD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF0ACD2916097D8200D70FCD /* AppKit.framework */,
+				EF0ACD2A16097D8200D70FCD /* CoreData.framework */,
+				EF0ACD2B16097D8200D70FCD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EF0ACD2C16097D8200D70FCD /* MultiWinSample */ = {
+			isa = PBXGroup;
+			children = (
+				EF0ACD4A16097E4C00D70FCD /* FirstWindowController.h */,
+				EF0ACD4B16097E4C00D70FCD /* FirstWindowController.m */,
+				EF0ACD4C16097E4C00D70FCD /* FirstWindow.xib */,
+				EF0ACD3816097D8200D70FCD /* Document.h */,
+				EF0ACD3916097D8200D70FCD /* Document.m */,
+				EF0ACD3E16097D8300D70FCD /* MainMenu.xib */,
+				EF0ACD2D16097D8200D70FCD /* Supporting Files */,
+			);
+			path = MultiWinSample;
+			sourceTree = "<group>";
+		};
+		EF0ACD2D16097D8200D70FCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF0ACD2E16097D8200D70FCD /* MultiWinSample-Info.plist */,
+				EF0ACD2F16097D8200D70FCD /* InfoPlist.strings */,
+				EF0ACD3216097D8200D70FCD /* main.m */,
+				EF0ACD3416097D8200D70FCD /* MultiWinSample-Prefix.pch */,
+				EF0ACD3516097D8200D70FCD /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF0ACD2116097D8200D70FCD /* MultiWinSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF0ACD4316097D8300D70FCD /* Build configuration list for PBXNativeTarget "MultiWinSample" */;
+			buildPhases = (
+				EF0ACD1E16097D8200D70FCD /* Sources */,
+				EF0ACD1F16097D8200D70FCD /* Frameworks */,
+				EF0ACD2016097D8200D70FCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiWinSample;
+			productName = MultiWinSample;
+			productReference = EF0ACD2216097D8200D70FCD /* MultiWinSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF0ACD1916097D8200D70FCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = lirichard;
+			};
+			buildConfigurationList = EF0ACD1C16097D8200D70FCD /* Build configuration list for PBXProject "MultiWinSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF0ACD1716097D8200D70FCD;
+			productRefGroup = EF0ACD2316097D8200D70FCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF0ACD2116097D8200D70FCD /* MultiWinSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF0ACD2016097D8200D70FCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0ACD3116097D8200D70FCD /* InfoPlist.strings in Resources */,
+				EF0ACD3716097D8200D70FCD /* Credits.rtf in Resources */,
+				EF0ACD4016097D8300D70FCD /* MainMenu.xib in Resources */,
+				EF0ACD4E16097E4C00D70FCD /* FirstWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF0ACD1E16097D8200D70FCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0ACD3316097D8200D70FCD /* main.m in Sources */,
+				EF0ACD3A16097D8200D70FCD /* Document.m in Sources */,
+				EF0ACD4D16097E4C00D70FCD /* FirstWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF0ACD2F16097D8200D70FCD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF0ACD3016097D8200D70FCD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF0ACD3516097D8200D70FCD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF0ACD3616097D8200D70FCD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EF0ACD3E16097D8300D70FCD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF0ACD3F16097D8300D70FCD /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF0ACD4116097D8300D70FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EF0ACD4216097D8300D70FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EF0ACD4416097D8300D70FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiWinSample/MultiWinSample-Prefix.pch";
+				INFOPLIST_FILE = "MultiWinSample/MultiWinSample-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF0ACD4516097D8300D70FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiWinSample/MultiWinSample-Prefix.pch";
+				INFOPLIST_FILE = "MultiWinSample/MultiWinSample-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF0ACD1C16097D8200D70FCD /* Build configuration list for PBXProject "MultiWinSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0ACD4116097D8300D70FCD /* Debug */,
+				EF0ACD4216097D8300D70FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF0ACD4316097D8300D70FCD /* Build configuration list for PBXNativeTarget "MultiWinSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0ACD4416097D8300D70FCD /* Debug */,
+				EF0ACD4516097D8300D70FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF0ACD1916097D8200D70FCD /* Project object */;
+}
